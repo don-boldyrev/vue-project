@@ -1,0 +1,39 @@
+.application {
+    display: block;
+}
+.theme--light.application {
+    background: transparent;
+    color: rgba(0,0,0,0.87);
+}
+.application--wrap {
+    -webkit-box-flex: 0;
+    -ms-flex: auto;
+    flex: auto;
+    display: block;
+    margin: 0 auto;
+}
+.content-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-color: #f1f1f1;
+}
+.content-section {
+    width: 1920px;
+    -ms-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -o-transform-origin: top left;
+    transform-origin: top left;
+    position: absolute;
+    background-color: #f1f1f1;
+}
+.page {
+    width: 1600px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
